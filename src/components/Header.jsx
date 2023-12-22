@@ -1,12 +1,18 @@
 import React from "react";
+import trollFaceImage from "../assets/images/troll-face.png";
 
 export default function Header() {
-    
-    return (
-        <header className="header">
-            <img src="troll-face-png.png" className="header-img"/>
-            <h2 className="header-title">Meme Generator</h2>
-            <h4 className="header-text">Choose an image, write your text, make your meme 👻</h4>
-        </header>
-    )
+  return (
+    <header className="bg-color">
+      <div className="container d-flex justify-content-around align-items-center py-3 text-light">
+        <div className="d-flex align-items-center">
+          <img src={trollFaceImage} className="logo" />
+          <h2 className="title m-0">MemePlex</h2>
+        </div>
+        <h4 className="tagline d-none d-md-block m-0">
+          Choose image, write text, make your meme 👻
+        </h4>
+      </div>
+    </header>
+  );
 }
