@@ -6,8 +6,8 @@ export default function Header() {
     <header className="bg-color">
       <div className="container d-flex justify-content-around align-items-center py-3 text-light">
         <div className="d-flex align-items-center">
-          <img src={trollFaceImage} className="logo" />
-          <h2 className="title m-0">MemePlex</h2>
+          <img src={trollFaceImage} alt="troll face" className="logo" />
+          <h2 className="title m-0">Mewta</h2>
         </div>
         <h4 className="tagline d-none d-md-block m-0">
           Choose image, write text, make your meme 👻

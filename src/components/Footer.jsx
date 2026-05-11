@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-color text-light py-3">
       <div className="container">
         <p className="copyright text-center m-0">
-          © 2023 MemePlex. All rights reserved.
+          © 2026 Mewta. All rights reserved.
         </p>
         <p className="text-center m-0">
           Developed by{" "}
