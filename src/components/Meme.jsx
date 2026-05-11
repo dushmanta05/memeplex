@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function Meme() {
   const [meme, setMeme] = useState({
@@ -62,6 +62,7 @@ export default function Meme() {
         </div>
         <div className="col-12 mt-3 d-flex justify-content-center">
           <button
+            type="button"
             className="meme-btn col-8 col-md-6 border-0 rounded text-light"
             onClick={getMemeImage}
           >
@@ -70,7 +71,7 @@ export default function Meme() {
         </div>
       </div>
       <div className="meme mt-3 mb-3 d-flex justify-content-center">
-        <img src={meme.randomImage} className="meme-img" />
+        <img src={meme.randomImage} alt="meme" className="meme-img" />
         <h2 className="meme-caption top">{meme.topText}</h2>
         <h2 className="meme-caption bottom">{meme.bottomText}</h2>
       </div>

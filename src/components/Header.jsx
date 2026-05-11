@@ -1,4 +1,3 @@
-import React from "react";
 import trollFaceImage from "../assets/images/troll-face.png";
 
 export default function Header() {
